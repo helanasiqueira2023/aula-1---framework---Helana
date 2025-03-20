@@ -1,79 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Imagens</title>
+    <title>Ifood</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
-
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" style="background-color: #ed6029;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Variação e Inspiração de Flores</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Ocasiões
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Aniversário</a></li>
-                            <li><a class="dropdown-item" href="#">Casamento</a></li>
-                            <li><a class="dropdown-item" href="#">Maternidade</a></li>
-                            <li><a class="dropdown-item" href="#">Velório</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Procurar</button>
-                </form>
-            </div>
+          <a class="navbar-brand" href="#">Ifood da Lana</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cardápio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Delivery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Navbar text with an inline element
+            </span>
+          </div>
         </div>
-    </nav>
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="true">
-    </nav>
-    <center>
-        <h2>Opções de Flores</h2>
-    </center>
-    <br>
-    <br>
-    <br>
-                <<div class="container text-center">
-                    <div class="row row-cols-4">
-                      <div class="col"><img src="https://www.soflor.com.br/wp-content/uploads/2015/12/sementes-de-flor-esporinha-sortida-2-7-e1495133382870-300x300.jpg" alt="imagem de flor 1"></div>
-                      <div class="col"><img src="https://vamoscomermelhor.com.br/wp-content/uploads/begonia-e1653667833820.jpg" alt="imagem de flor 2"></div>
-                      <div class="col"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/200516986371833856.jpeg?x-oss-process=image/format,webp/resize,s_300&v=1.0" alt=""></div>
-                      <div class="col"><img src="https://cdn.awsli.com.br/300x300/2446/2446161/produto/222775105/20230626_161557-fotor-2023062818262-ds4cfv2nc0.jpg" alt="imagem de flor 1"></div>
-                    </div>
-                  </div>
-            </div>
+      </nav>
+      <br>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
-
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center><img src="https://www.lafrontera.com.br/storage/images/cache/burrito-patron-400x400-44bef455.jpg" class="d-block w-60" alt="..."></center>
+          </div>
+          <div class="carousel-item">
+            <center><img src="https://images.tcdn.com.br/img/img_prod/832602/noticia_1218884340662b754aa430c.png" class="d-block w-60" alt="..."></center>
+          </div>
+          <div class="carousel-item">
+            <center><img src="..." class="d-block w-100" alt="..."></center>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"><img src="https://www.lafrontera.com.br/storage/images/cache/burrito-patron-400x400-44bef455.jpg" alt=""></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 </body>
-
 </html>
